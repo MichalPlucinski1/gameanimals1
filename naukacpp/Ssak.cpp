@@ -16,7 +16,6 @@ Lew::Lew(){
 Pies::Pies() {
     cout << "Konstruktor Psa" << endl;
     this->Mass = 500;
-    this-> Wiek = 0;
     cout << "Podaj imie dla psiura: ";
     cin >> this->Imie;
     this-> Energia = 30;

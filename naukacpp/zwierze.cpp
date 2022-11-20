@@ -9,7 +9,9 @@ Zwierzak :: Zwierzak()
     this->Zyj();
     this->Oddychaj();
     this->Patrz();
+    ilosc++;
 }
+
 Zwierzak::Zwierzak(string imie, int wiek, float mass)
 {
     this->Imie = imie;
@@ -19,6 +21,7 @@ Zwierzak::Zwierzak(string imie, int wiek, float mass)
     this->Zyj();
     this->Oddychaj();
     this->Patrz();
+    ilosc++;
 }
 
 

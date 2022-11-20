@@ -19,9 +19,9 @@ class Zwierzak{
 
     float Mass;
     int Wiek;
-    string Imie;
+    const string Imie;
     float Energia;
     float Morale;
-    char Plec;
+    const char Plec;
 
 };
